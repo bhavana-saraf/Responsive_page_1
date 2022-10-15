@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
+<body>
+  
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#"><i class="fa fa-home" style="font-size:48px;color:red"></i>Dashboard</a>
+    <a href="projects.html"><i class="fa fa-lock" style="font-size:48px;color:red"></i>Projects</a>
+    <a href="#"><i class="fa fa-bank" style="font-size:48px;color:red"></i>Earnings</a>
+    <a href="#"><i class="fa fa-user" style="font-size:48px;color:red"></i>Profile</a>
+    <a href="#"><i class="fa fa-support" style="font-size:48px;color:red"></i>Supports</a>
+    <a href="#"><i class="fa fa-ticket" style="font-size:48px;color:red"></i>Tikets</a>
+  </div>
+</div>
+  <div class="logo">LOGO</div>
+<hr>
+<span style="font-size:30px;cursor:pointer;color:orange" onclick="openNav()">&#9776; open</span>
+<hr>
+
+<script >
+function openNav() {
+  document.getElementById("myNav").style.width = "50%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
